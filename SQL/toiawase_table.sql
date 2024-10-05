@@ -1,0 +1,9 @@
+CREATE TABLE toiawase_table (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    division VARCHAR(255) NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    tel VARCHAR(20) NOT NULL,
+    message TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
